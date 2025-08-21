@@ -7,9 +7,12 @@ def greatest_number(a,b,c):
         return "c is greatest"
     
 
-a = int(input())
-b = int(input())
-c = int(input())
+# a = int(input())
+# b = int(input())
+# c = int(input())
+
+
+a,b,c = map(int,input().split())
 
 # res = greatest_number(a,b,c)
 # print(res)

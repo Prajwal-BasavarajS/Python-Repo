@@ -14,9 +14,9 @@ a , b , c  = map(int,input().split())
 # a, b, c = int(input().split())
 # You're trying to convert the result of input().split() directly into an int, but input().split() returns a list of strings, not a single value.
 
-if a >= b & b >= c:
+if a >= b and a >= c:
     print("A is largest")
-elif b >= a & b >= c :
+elif b >= a and b >= c :
     print("B is largest")
 else :
     print('c is largest')

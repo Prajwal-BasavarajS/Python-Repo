@@ -13,6 +13,8 @@ c = a
 a = b
 b = c
 
+a,b = b,a
+
 print(a, b)
 
 
@@ -21,5 +23,5 @@ def f():
     print(a)
 
 f()
-# print(a)  # This would raise an error since 'local_var' is not accessible outside the function8
+# print(a)  # This would raise an error since 'local_var' is not accessible outside the function
 

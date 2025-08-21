@@ -18,6 +18,9 @@ print("The sum is %f" %add)
 
 print("The sum is %.2f" %add)
 
+print("The sum is %.3f" %add)
+
+
 # Taking input from the user as tuple
 
 # num =dict(input("Enter number "))

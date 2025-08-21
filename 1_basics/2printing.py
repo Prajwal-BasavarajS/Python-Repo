@@ -1,7 +1,7 @@
 #User function Template for python3
 a = input()
 b = input()
-separator = input()[0]
+separator = input()
 
 ########### Write your code below ###############
 

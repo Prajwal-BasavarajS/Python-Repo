@@ -13,3 +13,22 @@ def fizzbuzz(a):
         
 a = int(input("Enter a number\n"))
 fizzbuzz(a)
+
+
+def fizzbuzz(n):
+        
+
+    if (n % 3 == 0 and n % 5 == 0) : 
+        return "fizzbuzz"
+    elif n % 3 == 0 :
+        return  "buzz"
+    elif n % 5 == 0 :
+        return "fizz"
+    else :
+        return "not a fizzbuzz number"
+    
+
+
+n = int(input("Enter a number "))
+
+print(fizzbuzz(n))

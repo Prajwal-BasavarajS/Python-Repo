@@ -15,7 +15,7 @@ c = 5
 d = [6,7,9,5,8,19]
 
 if c in d:
-    print("hello")
+    print("here hello")
 else : 
     print("fuck off")
 

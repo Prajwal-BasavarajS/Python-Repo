@@ -5,3 +5,8 @@ def fun(n):
 
 fun(9)
 
+def sum():
+    print("sum")
+
+
+sum()

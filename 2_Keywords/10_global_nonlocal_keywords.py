@@ -38,5 +38,5 @@ def fun():
         print(var)  
 
     gun() 
-
+    print(var)
 fun() # Output: 20

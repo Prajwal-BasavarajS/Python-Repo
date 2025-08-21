@@ -7,3 +7,4 @@ d = float(input())
 
 o = int(d)
 print (o)
+print(type(o))

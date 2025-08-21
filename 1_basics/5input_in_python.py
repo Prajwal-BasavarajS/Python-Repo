@@ -10,10 +10,14 @@
 ########### Write your code above ###############
 
 
-a = input()
-print(a)
-b = int(input()) + 10
-print(b)
+# a = input()
+# print(a)
+# b = int(input()) + 10
+# print(b)
 
-g = float(input()) * 10
-print(g)
+# g = float(input()) * 10
+# print(g)
+
+
+f,r,d = map(int,input().split())
+print(f,"\n",r,'\n',d)

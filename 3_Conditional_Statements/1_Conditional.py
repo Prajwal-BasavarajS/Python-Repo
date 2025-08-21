@@ -19,3 +19,16 @@ elif age <= 19 :
 else :
     print("Not allowed inside the PUB!! BYE BYE!! ")
 
+def posneg():
+
+
+    n = int(input())
+    if n > 0 :
+        return ("positive..")
+    elif n < 0 :
+        return ("negative..")
+    else : 
+        return "its zeroo.."
+    
+
+print(posneg())
