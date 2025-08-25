@@ -4,7 +4,7 @@ print(type(b))
 print(b, end="@")
 print("hi")
 
-print("h",'e','l', 'l', sep = '-')
+print("h",'e','l', 'l','o', sep = 'darshan \t')
 print('12', ' 05', '2025', sep='-' , end = "@")
 print("h",'e','l', 'l', sep = '-')
 

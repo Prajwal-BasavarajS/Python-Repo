@@ -14,7 +14,7 @@ for i in li :
 
 
 print("")
-tup = ('Hello', 1234, "bye!!")
+tup = ('Hello', 1234,1234, "bye!!")
 for i in tup :
     print('\n',i)
 
