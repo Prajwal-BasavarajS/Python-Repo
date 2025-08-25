@@ -10,7 +10,9 @@ def findSum(n):
 
 if __name__ == "__main__":
     n = 5
+    m = 10
     print(findSum(n))
+    print(findSum(m))
 
 
 def sum_of_n(n):

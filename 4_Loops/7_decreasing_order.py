@@ -12,3 +12,19 @@ x = 7
 for i in range(x, -1,-1):
     print('\n', i, end ='      ')
 
+
+
+n = 5 
+print()
+
+for i in range(1,11):
+    print(f" {i} * {n}  = ", i*n )
+
+
+
+
+s = "hello we are studying python "
+
+for i in range(0,len(s),2):
+    print(f"{s[i]}  = " , i )
+
