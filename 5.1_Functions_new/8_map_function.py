@@ -41,3 +41,36 @@ def twice(a):
 d = [2,3,4,5,6]
 res = list(map(twice,d))
 print(res)
+
+
+
+def double(d):
+    return d*2
+
+s = [44,2,3,4,5,6,7]
+r = list(map(double,s))
+
+print(f'\n{set(r)}')
+
+
+f = ['apple','bannana','cherry',"dragon fruit"]
+casee = list(map(str.upper,f))
+print("\n",casee)
+
+g=list(map(str.lower,casee))
+print(g)
+
+
+print()
+
+words = ['apple', 'banana', 'cherry']
+res = map(lambda s: s[0], words)
+print(list(res))
+
+
+w = ['  apple  ', ' banana  ', '    cherry  ']
+result = list(map(str.strip,w))
+print(result)
+
+s = list(map(lambda x: x[0],words))
+print(s)
