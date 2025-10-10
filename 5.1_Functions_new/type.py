@@ -2,4 +2,15 @@ x = 3
 print(type(x))
 
 
-print("hello making chnages in sub_branch does not refelct here i need to make changes")
+
+def add(t):
+    def combine(p):
+        return t + "doesn't like " + p 
+    return combine
+
+love = add("Macbook ")
+
+i = love("Charging")
+print(i)
+
+print(love.__closure__[0].cell_contents, "Closure \n")
