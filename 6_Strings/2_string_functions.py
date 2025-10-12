@@ -19,6 +19,13 @@ def make_title(s):
 def swapcases(s):
     return s.swapcase()
 
+
+def uppercase(s):
+    return s.upper()
+
+
+print(uppercase("helllo who are you??"))
+
 print(trim("          jekfwmfs      "))
 print("\n",findd("hellothere", "the"))
 print("check 5")
